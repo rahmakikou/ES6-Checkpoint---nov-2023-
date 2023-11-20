@@ -1,0 +1,31 @@
+const quarterOf = (month) => {
+  if (month <= 3) {
+  return 1
+  } else if (6 >= month && month > 3) {
+    return 2
+  } else if (9 >= month && month > 6) {
+    return 3
+  } else if (12 >= month && month > 9) {
+    return 4
+  } 
+ } 
+ 
+
+
+ // as a function 
+
+ function quarterOf (month, quarter) {
+    if (month <= 3) {
+      return quarter = 1
+    } else if (6 >= month && month > 3) {
+      return quarter = 2
+    } else if (9 >= month && month > 6) {
+      return quarter = 3
+    } else if (12 >= month && month > 9) {
+      return quarter = 4
+    }
+    return quarter 
+  }
+  
+  month = 4 
+  console.log(quarterOf(month)) 
